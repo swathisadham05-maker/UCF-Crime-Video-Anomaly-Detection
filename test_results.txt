@@ -1,0 +1,12 @@
+dataset_videos: 105
+training_videos: 67
+validation_videos: 17
+testing_videos: 21
+best_epoch: 24
+threshold: 0.26
+accuracy: 85.71
+precision: 82.35
+recall: 100.0
+f1_score: 90.32
+balanced_accuracy: 78.57
+confusion_matrix: [[4, 3], [0, 14]]
