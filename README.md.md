@@ -73,4 +73,3 @@ python src/prepare_labels.py
 python src/extract_features.py
 python src/train.py
 ```
-Check the actual script filenames in `src/` and update commands if yours differ.#
