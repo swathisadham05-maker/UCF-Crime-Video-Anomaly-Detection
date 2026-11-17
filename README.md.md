@@ -60,7 +60,6 @@ project/
 │   ├── prepare_labels.py
 │   ├── extract_features.py
 │   ├── train.py
-│   └── evaluate.py
 ├── UCF_Crime_System_Architecture.png
 ├── README.md
 └── requirements.txt
@@ -74,21 +73,4 @@ python src/prepare_labels.py
 python src/extract_features.py
 python src/train.py
 ```
-Check the actual script filenames in `src/` and update commands if yours differ.
-
-## GitHub upload
-Do not commit `.venv/`, raw UCF-Crime videos, private information, or huge generated files. Add a `.gitignore` such as:
-```gitignore
-.venv/
-__pycache__/
-*.pyc
-dataset/
-*.mp4
-*.avi
-*.mkv
-*.mov
-```
-If you have permission to share generated features or model weights, check their sizes and include them only if suitable. Otherwise document how to regenerate them. Add your own genuine VS Code, training and result screenshots under `docs/screenshots/`.
-
-## Citation
-Add the exact UCF-Crime dataset paper citation and the references for ResNet and attention-based MIL used in your implementation. Verify all bibliographic details before submission.
+Check the actual script filenames in `src/` and update commands if yours differ.#
